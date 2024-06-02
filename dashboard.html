@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Cause Connect</h1>
+        <div class="header-buttons">
+            <button class="btn"><a href="event.html">Add Event</a></button>
+            <button class="btn" id="logout">Logout</button>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Welcome, <span id="userName">User</span>!!</h1>
+        <p>Available Events:</p>
+    </div>
+    <div id="eventsContainer">
+        <div class="event"></div>
+        <div class="event"></div>
+        <div class="event"></div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
